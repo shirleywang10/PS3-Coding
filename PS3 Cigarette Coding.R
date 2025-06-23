@@ -180,10 +180,6 @@ stargazer(model_a, model_e, model_f,
           covariate.labels = c("log(price)", "fitted log(price)"),
           keep.stat = c("n", "rsq", "adj.rsq", "ser", "f"))
 
-
-
-
-
 #g)
 # Create log(income) if not already created
 data$log_income <- log(data$income)
